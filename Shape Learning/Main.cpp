@@ -32,6 +32,11 @@ if	(v==0){
 	cout  << "How many vertices does the object have?   "; 
 	cin >> v;
 	}
+else if (v>3 || v<3){
+	cout << "\nA triangle has 3 vertices! Your object IS NOT a Triangle!\n\nNEXT OBJECT:\n\n";
+
+	goto NewVertice;
+	}
 
 cout << "\n\nPlease input the (x,y) values for each vertice:-\n\n";
 
@@ -43,17 +48,13 @@ for(int i = 1 ; i <= v; i++) {
 	cin >> inputs[i].y;
 	cout << "\n";
 }
-if	(v>3 || v<3){
-	cout << "\nSorry! A triangle has 3 vertices! Try Again...\n\n\n";
+/* Weight the inputs*/
 
-	goto NewVertice;
-}
-else {
 	C1x= inputs[0].x * W1 + inputs[1].x * W2 + inputs[2].x * W3;
 	C3x= inputs[0].x * W1 + inputs[1].x * W3 + inputs[2].x * W2;
 	C1y= inputs[0].y * W1 + inputs[1].y * W2 + inputs[2].y * W3;
 	C3y= inputs[0].y * W1 + inputs[1].y * W3 + inputs[2].y * W2;
-}
+
 
 /* Gradient of each line*/
 if( C1x == 0 || C1y == 0){
