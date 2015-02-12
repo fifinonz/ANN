@@ -1,4 +1,12 @@
-/* A Program to implement a neural networkmodel in learning the shape of a triangle*/
+/*
+#Rudimentary Algorithim 
+#1st of  n iterations
+#Weights fixed, no activation function
+#Learning not implemented
+
+#  author @fifinonz
+	https://github.com/fifinonz
+*/
 
 #include <iostream>
 

@@ -1,3 +1,8 @@
+/*
+#  author @fifinonz
+	https://github.com/fifinonz
+*/
+
 #ifndef NeuralNet_H
 #define NeuralNet_H
 
