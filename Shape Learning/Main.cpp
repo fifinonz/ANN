@@ -29,7 +29,7 @@ cin >> v;
 
 if	(v==0){
 	cout << "\nOOPS! Your object must have vertices! Try again.\n\n";
-	cout  << "How many vertices does the object have?   "; 
+	cout  << "How many vertices does the object have??   "; 
 	cin >> v;
 	}
 else if (v>3 || v<3){
