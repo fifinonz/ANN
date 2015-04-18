@@ -7,6 +7,8 @@
 #define NeuralNet_H
 
 #include <stdlib.h>
+
+//Weights cannot be static! 
 #define W1 -1
 #define W2 0
 #define W3 1
